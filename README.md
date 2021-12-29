@@ -44,6 +44,15 @@ The operated choice between methods occurs at the level of input processing or m
 
 "Direct answer chain", a simple and rigidly logical method represents automatic direct question-answer exchange learning and dialog process under functions control interface. 
 
+The basic principle of learning and conversation is returning the answer to the question if the answer exists. Otherwise, requesting the answer to the new question. "Training" represents adding new questions and answers. "Dialog" is a request for an existing answer.
+
+    q1a. q1b. q1c…
+    a1a. a1b. a1c...
+    q2a. q2b. q2c…
+    a2a. a2b. a2c...
+
+
+
 "Definition answer" returns the answer to the subject with definition by determination of noun. 
 
 "Inverse definition answer" returns attitude to the subject by inversion of attitude by pronoun and adjective. 
@@ -60,14 +69,11 @@ The operated choice between methods occurs at the level of input processing or m
 
 Interactive training and conversation
 
-"DAC" Direct answer chain
 
-Basic principle of learning and dialogue is returning of answer to the question if answer exist, otherwise, requesting for the answer to new question. In pure direct answer chain process of "training" is a simple adding of new questions and answers, "dialog" is a requesting for exist answer:
 
-    q1a. q1b. q1c…
-    a1a. a1b. a1c...
-    q2a. q2b. q2c…
-    a2a. a2b. a2c...
+
+
+
  
 Dialog example represents basic learning and conversation model in "direct answer chain" process. To start training and conversation you have to open input window and insert:
 
