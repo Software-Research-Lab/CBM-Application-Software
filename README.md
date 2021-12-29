@@ -40,18 +40,48 @@ The bot operates individual unique memory content updated by interlocutor input 
 
 ## NLP semantic analysis methods algorithms functions
 
-The operated choice between methods occurs at the level of input processing or mode condition and enters into interconnected work. 
+The operated choice between methods occurs at the level of input processing or mode condition and enters into interconnected work under functions control interface. 
 
-"Direct answer chain", a simple and rigidly logical method represents automatic direct question-answer exchange learning and dialog process under functions control interface. 
-
-The basic principle of learning and conversation is returning the answer to the question if the answer exists. Otherwise, requesting the answer to the new question. "Training" represents adding new questions and answers. "Dialog" is a request for an existing answer.
+"Direct answer chain", a simple and rigidly logical method represents automatic direct question-answer exchange learning and dialog process where the basic principle is output the answer to the question if the answer exists or request the answer to the new question. 
 
     q1a. q1b. q1c…
     a1a. a1b. a1c...
     q2a. q2b. q2c…
     a2a. a2b. a2c...
 
+To start training and conversation open input window and insert:
 
+    user: how are you? 
+    _bot: fine, and you?
+    user: perfect
+    _bot: what is "perfect"?
+
+  Request indicates that the answer does not exist.
+ 
+    user: just perfect
+    _bot: your answer "just perfect" saved 
+
+  Compound of answer to the question saved: 
+
+    user: Perfect
+    _bot: Just perfect
+
+  Using ending mark for multiple answer: 
+
+    _bot: what is "perfect"?
+    user: just perfect. it is perfect. you are perfect. yes, perfect
+    
+    user: perfect
+    _bot: you are perfect
+    user: perfect
+    _bot: it is perfect
+  
+   Getting of new answer to exist question requires asking to request for a new adding to answer/multi-answer for question:   
+
+    user: ask
+    _bot: I want to know, how to answer to the question "hello"
+    user: hi. whats up. hello. hey
+    _bot: if you ask "hello" I answer "hi"
 
 "Definition answer" returns the answer to the subject with definition by determination of noun. 
 
@@ -75,41 +105,7 @@ Interactive training and conversation
 
 
  
-Dialog example represents basic learning and conversation model in "direct answer chain" process. To start training and conversation you have to open input window and insert:
 
-    user: how are you? 
-    _bot: fine, and you?
-    user: perfect
-    _bot: what is "perfect"?
-
-  Request indicates that the answer does not exist.
- 
-    user: just perfect
-    _bot: your answer "just perfect" saved 
-
-  Compound of answer to the question saved in memory: 
-
-    user: Perfect
-    _bot: Just perfect
-
-  Use ending mark for multiple answer: 
-
-    _bot: what is "perfect"?
-    user: just perfect. it is perfect. you are perfect. yes, perfect
-
-  To get different answers on same context question:
-
-    user: perfect
-    _bot: you are perfect
-    user: perfect
-    _bot: it is perfect
-  
-   Getting of new answer to exist question will be processed with asking to request for a new adding to answer or multi answer for question by program choice:   
-
-    user: ask
-    _bot: I want to know, how to answer to the question "hello"
-    user: hi. whats up. hello. hey
-    _bot: if you ask "hello" I answer "hi"
 
 "CQ" Contextual question
  
