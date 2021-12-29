@@ -38,23 +38,25 @@ The bot operates individual unique memory content updated by interlocutor input 
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg)
 
 
-## NLP semantic analysis methods algorithms
+## NLP semantic analysis methods algorithms functions
 
-  Operated choice between methods occurs at the level of input processing or mode condition and enters into intersected and interconnected work. 
+The operated choice between methods occurs at the level of input processing or mode condition and enters into interconnected work. 
 
-"Direct answer chain", which represents general direct learning and dialog process under functions control interface. Conditionally can be considered as "left side process", which is simple and rigidly logical method. 
+"Direct answer chain", a simple and rigidly logical method represents automatic direct question-answer exchange learning and dialog process under functions control interface. 
 
-"Definition answer" returns answer with definition to question on subject by determination of noun. 
+"Definition answer" returns the answer to the subject with definition by determination of noun. 
 
 "Inverse definition answer" returns attitude to the subject by inversion of attitude by pronoun and adjective. 
 
-"Contextual question" returns answer to previous question context by conjunction. 
+"Contextual question" returns the answer to the previous question context by conjunction. 
 
-"Contextual answer" provides adding and request method to create and return contextual dialogue nodes. 
+"Contextual answer" provides adding and request method to create and return contextual dialogue node output. 
 
-"Vertical stair answer" can be defined as mode-dependent stochastic optimization "medial process" including borrowed functions from other methods, as well as processes with several types of return in case of "no answer" condition. 
+"Vertical stair answer" can be defined as mode-dependent stochastic optimization, including borrowed functions from other methods, and processing with several types of output in case of the "no answer" condition. 
 
-"Inference root network" returns hypothesis about meaning of the word without direct link between the word and its meaning at the time of determination by weighing of found links in the whole memory context, and can be considered as "right side process", more complex and requiring attentive training for sensitive balance in determination of answer by size of value in entire content. "Output appeal" outputs questions and answers from exist memory by program choice.  
+"Inference root algorithm" returns the meaning of the word or sentence by weighing noun links in the whole memory context. 
+
+"Output appeal" outputs questions and answers from existing memory by program choice.  
 
 Interactive training and conversation
 
