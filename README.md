@@ -68,7 +68,4 @@ To get updates from research workflow, please follow us on social networks and s
 
 <sub>Copyright © 2016-2021 Lado Oniani, TAI Lab. All Rights Reserved<sub>
 
-
-
-"# Terbinari-CBM-Tet" 
-"# Terbinari-CBM-Tet" 
+ 
