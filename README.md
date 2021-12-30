@@ -136,7 +136,7 @@ Mode-dependent stochastic optimization, including borrowed functions from other 
 
 Outputs questions and answers from existing memory assigned list or random/contextual choice.  
 
-_bot: mercury temperature is 801 fahrenheit
+    _bot: mercury temperature is 801 fahrenheit
 
 ### Inference root algorithm
 
