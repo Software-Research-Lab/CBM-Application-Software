@@ -36,14 +36,12 @@ The bot operates individual unique memory content updated by interlocutor input 
  
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg)
 
-
-
     • Input text-box
     • Output answer display 
-    • TT/TV/VV/EX modes, answer processing type, function and system message indicator
+    • TT/TV/VV/EX modes, answer processing type, function, and system message indicator
     • ACD enable/disable
-    •  "OA On/Off" Output appeal
-    •  "IC/Close" Voice-to-voice chat conversation tool open/close button
+    • "OA On/Off" Output appeal
+    • "IC/Close" Voice-to-voice chat conversation tool open/close button
     • "UPD/Save BAC" backup update load button
     • "BAC" backup saving download button
     • "Synch" robot synchronization button
