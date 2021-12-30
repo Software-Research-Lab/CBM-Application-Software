@@ -18,7 +18,7 @@ Intelligent systems and robotics laboratory**
 ### ✔️ Content
 
  - [Software and device](#Software-and-device)
- - [Conversations](#Conversations)
+ - [Interface control ](#Interface-control )
  - [Overview](#Overview)
  - [Processing ](#Processing)
  - [Functionality](#Functionality)
@@ -31,8 +31,30 @@ Terbinari operating program represents interactive training and conversation mod
 Artificial conversational entity performs input/output question-answering, learning, spoken dialog system with multi-function chat-bot interface and anthropomorphic humanoid robot Control Bot Mechanism animatronics operator. The cervical motility device implements mouth speech events motion and eyes/head tracking contact and response under facial detection/recognition process of computer vision.
 
 The bot operates individual unique memory content updated by interlocutor input in frames of the system legal code. The answer defines output for dialogue as a tool of reflective analysis by returning efferent recall from human-like machine cognitive function. Embodies autonomous companion simulator as trainable virtual teaching assistant and agent of compensatory intercourse for various interactive communication tasks.
+
+## Interface control 
  
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg)
+
+
+
+    • Input text-box
+    • Output answer display 
+    • TT/TV/VV/EX modes, answer processing type, function and system message indicator
+    • ACD enable/disable
+    •  "OA On/Off" Output appeal
+    •  "IC/Close" Voice-to-voice chat conversation tool open/close button
+    • "UPD/Save BAC" backup update load button
+    • "BAC" backup saving download button
+    • "Synch" robot synchronization button
+    • "Pipe" module connection button
+    • Video device selection 
+    • Serial port selection 
+    • Speech recognition reference selection 
+    • Speech recognition language selection 
+    • Detection and recognition tracking monitor
+    • Voice-to-voice chat conversation tool
+    • Voice-to-voice chat conversation tool system volume real-time value and pass/block indicator 
 
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg)
 
