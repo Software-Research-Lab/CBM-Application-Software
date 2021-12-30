@@ -111,7 +111,6 @@ Answer with link to previous answer context by exist conjunction:
     user: why?
     _bot: because I like you  
     
-
 ### Contextual answer
 
 Provides adding and request method to create and return contextual dialogue node. Adding keyword "ctx" to question opens contextual answer creation sequence:
@@ -131,21 +130,21 @@ Provides adding and request method to create and return contextual dialogue node
 
 ### Vertical stair answer 
 
-Can be defined as mode-dependent stochastic optimization, including borrowed functions from other methods, and processing with several types of output in case of the "no answer" condition. 
-
-Processing appears during voice-to-voice mode when input result is “answer not found” condition and adding of new compound is not available. During text-to-text or text-to-voice modes, process returns exist answer to equal question, otherwise requests for the answer to the new question. During voice-to-voice mode input processing flows by the stair of conditions with incipient step which counts subject value and looks for containing answers with context in compound, while move to the terminal noun value, otherwise the “answer not found” condition becomes true.
-
-"Inference root algorithm" returns the meaning of the word or sentence by weighing noun links in the whole memory context. 
+Mode-dependent stochastic optimization, including borrowed functions from other methods, and processing with several types of output in case of the "no answer" condition and adding of the new compound is not available. Processing flows by the stair of conditions with incipient step, which counts subject value and looks for containing answers with the context in the compound, while a move to the terminal noun value, otherwise the “answer not found” condition becomes true.
 
 ### Output appeal
 
-Outputs questions and answers from existing memory assigned list or by own random/contextual choice.  
+Outputs questions and answers from existing memory assigned list or random/contextual choice.  
 
 _bot: mercury temperature is 801 fahrenheit
 
-### Inference root algorithm 
+### Inference root algorithm
 
-Call of process occurs with using of keyword "think". Inference root network is a way of determining the meaning of a word without direct link between the word and its meaning at the time of determining of this relation by detecting and counting of connections depth in the complete context of memory, and to confirm this size as a direct value if hypothesis determines the meaning of the word by looking and counting of derivative nouns, received from previous processing up to a certain depth of subsequent connections. This makes hypothesis value true. Counting of key values qualifies conclusion by the higher size in downward curve of connections and weighing of oppositions to define attitude in supposed answer with request of confirmation for new key in root matrix. Balancing training focuses on the dependencies of nouns to create efferent output, which analyzes and determines the meaning, and requires confirmation for strengthening the knowledge. 
+Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
+
+ 
+
+ 
 
 
 
