@@ -100,8 +100,6 @@ Returns attitude to the subject by inversion of pronoun and adjective content:
     user: What is your favorite color? 
     _bot: My favorite color is green    
     
-"Contextual question" returns the answer to the previous question context by conjunction. 
-
 ### Contextual question
  
 Answer with link to previous answer context by exist conjunction:
