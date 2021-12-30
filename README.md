@@ -84,7 +84,7 @@ To start training and conversation open input window and insert:
     user: hi. whats up. hello. hey
     _bot: if you ask "hello" I answer "hi"
 
-### Definition answer" 
+### Definition answer
 
 Returns the answer to the subject with definition about the subject by determination of noun with basic question form: 
 
@@ -93,43 +93,28 @@ Returns the answer to the subject with definition about the subject by determina
     user: what is true? (DA)
     _bot: true is condition
 
+### Inverse definition answer
 
+Returns attitude to the subject by inversion of pronoun and adjective content:
 
-
-"Inverse definition answer" returns attitude to the subject by inversion of attitude by pronoun and adjective. 
-
+    user: What is your favorite color? 
+    _bot: My favorite color is green    
+    
 "Contextual question" returns the answer to the previous question context by conjunction. 
 
-"Contextual answer" provides adding and request method to create and return contextual dialogue node output. 
-
-"Vertical stair answer" can be defined as mode-dependent stochastic optimization, including borrowed functions from other methods, and processing with several types of output in case of the "no answer" condition. 
-
-"Inference root algorithm" returns the meaning of the word or sentence by weighing noun links in the whole memory context. 
-
-"Output appeal" outputs questions and answers from existing memory by program choice.  
-
-Interactive training and conversation
-
-
-
-
-
-
- 
-
-
-"CQ" Contextual question
+### Contextual question
  
 Answer with link to previous answer context by exist conjunction:
 
     user: who are you
     _bot: I am your friend              
     user: why?
-    _bot: because I like you     
+    _bot: because I like you  
+    
 
-"CTX" Contextual answer
+### Contextual answer
 
-Adding of keyword "ctx" to question opens contextual answer creation sequence:
+Provides adding and request method to create and return contextual dialogue node. Adding keyword "ctx" to question opens contextual answer creation sequence:
 
     user: how to teach "ctx"
     _bot: what to teach?              
@@ -144,26 +129,21 @@ Adding of keyword "ctx" to question opens contextual answer creation sequence:
     user: what answers?
     _bot: answers to questions
 
+### Vertical stair answer 
 
-
-"IDA" Inverse definition answer
-
-Returns attitude to the subject by inversion of pronoun and adjective content:
-
-    user: What is your favorite color? 
-    _bot: My favorite color is green       
-
-"OA" Output appeal 
-
-Returns efferent output from assigned list or by own random or contextual choice:
-
-_bot: mercury temperature is 801 fahrenheit
-
-"VSA" Vertical stair answer
+Can be defined as mode-dependent stochastic optimization, including borrowed functions from other methods, and processing with several types of output in case of the "no answer" condition. 
 
 Processing appears during voice-to-voice mode when input result is “answer not found” condition and adding of new compound is not available. During text-to-text or text-to-voice modes, process returns exist answer to equal question, otherwise requests for the answer to the new question. During voice-to-voice mode input processing flows by the stair of conditions with incipient step which counts subject value and looks for containing answers with context in compound, while move to the terminal noun value, otherwise the “answer not found” condition becomes true.
 
-"IRN" Inference root network
+"Inference root algorithm" returns the meaning of the word or sentence by weighing noun links in the whole memory context. 
+
+### Output appeal
+
+Outputs questions and answers from existing memory assigned list or by own random/contextual choice.  
+
+_bot: mercury temperature is 801 fahrenheit
+
+### Inference root algorithm 
 
 Call of process occurs with using of keyword "think". Inference root network is a way of determining the meaning of a word without direct link between the word and its meaning at the time of determining of this relation by detecting and counting of connections depth in the complete context of memory, and to confirm this size as a direct value if hypothesis determines the meaning of the word by looking and counting of derivative nouns, received from previous processing up to a certain depth of subsequent connections. This makes hypothesis value true. Counting of key values qualifies conclusion by the higher size in downward curve of connections and weighing of oppositions to define attitude in supposed answer with request of confirmation for new key in root matrix. Balancing training focuses on the dependencies of nouns to create efferent output, which analyzes and determines the meaning, and requires confirmation for strengthening the knowledge. 
 
