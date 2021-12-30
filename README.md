@@ -84,7 +84,17 @@ To start training and conversation open input window and insert:
     user: hi. whats up. hello. hey
     _bot: if you ask "hello" I answer "hi"
 
-"Definition answer" returns the answer to the subject with definition by determination of noun. 
+### Definition answer" 
+
+Returns the answer to the subject with definition about the subject by determination of noun with basic question form: 
+
+    user: true (DAC)
+    _bot: true is true       
+    user: what is true? (DA)
+    _bot: true is condition
+
+
+
 
 "Inverse definition answer" returns attitude to the subject by inversion of attitude by pronoun and adjective. 
 
@@ -134,14 +144,7 @@ Adding of keyword "ctx" to question opens contextual answer creation sequence:
     user: what answers?
     _bot: answers to questions
 
-"DA" Definition answer
 
-Returns answer by definition of subject with basic question form:
-
-    user: true (DAC)
-    _bot: true is true       
-    user: what is true? (DA)
-    _bot: true is condition
 
 "IDA" Inverse definition answer
 
