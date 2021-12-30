@@ -12,7 +12,9 @@ Intelligent systems and robotics laboratory**
 
 ## Terbinari CBM Tet.01 Operating program
 
-![alt text](https://github.com/ladooniani/terbinari-cbm/blob/main/image/terbinari-cbm-tet-lado-oniani-tai-lab-smb.png)
+[<img alt="TAI Lab." width="59px" src="https://github.com/ladooniani/terbinari-cbm/blob/main/image/terbinari-cbm-tet-lado-oniani-tai-lab-smb.png" />](https://github.com/ladooniani/terbinari) 
+
+
  
 ### ✔️ Content
 
