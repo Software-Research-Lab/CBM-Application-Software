@@ -257,33 +257,45 @@ To exit and continue speech, say "continue" or "stop and continue" without conti
 
 To add contextual node, use keyword "ctx":
 
-  user: how to teach ctx
-  _bot: what to teach?
-  user: answers to your question
-  _bot: how to teach?
-  user: insert questions. insert answers
-  _bot: why to teach?
-  user: to teach me
+    user: how to teach ctx
+    _bot: what to teach?
+    user: answers to your question
+    _bot: how to teach?
+    user: insert questions. insert answers
+    _bot: why to teach?
+    user: to teach me
 
 And request ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX:
 
-  user: how to teach?
-  _bot: insert answers
-  user: what answers?
-  _bot: answers to your question
+    user: how to teach?
+    _bot: insert answers
+    user: what answers?
+    _bot: answers to your question
   
 - ask >> To get request for answer. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
 Answer or request keyword "ask" for adding to exist single/multi answer/question:   
 
-  user: ask me something
-  _bot: I want to know, how to answer question (question)?
-  user: some answer
-  _bot: ok, if you ask "question" I answer "some answer"
+    user: ask me something
+    _bot: I want to know, how to answer question (question)?
+    user: some answer
+    _bot: ok, if you ask "question" I answer "some answer"
 
 #### Memory edit
 
-- format >> Format Memory. TT/TV
+- format >> Format Memory. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+
+To format memory for default content insert "format" and confirm condition. Formatting removes memory runtime and persistent data.
+ 
+    user: format 
+    _bot: you sure?
+    user: yes
+    _bot: memory cleared 
+    user: no
+    _bot: skipped 
+    user: tet
+    _bot: formatting command reset. what?
+  
 - remove >> Remove last compound. TT/TV
 - delete >> Delete current compound. TT/TV
 
