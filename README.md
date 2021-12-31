@@ -20,7 +20,7 @@ Intelligent systems and robotics laboratory**
  - [Software and device](#Software-and-device)
  - [Interface control ](#Interface-control )
  - [NLP semantic analysis methods algorithms](#NLP-semantic-analysis-methods-algorithms)
- - [Commands and functions](#Commands-and-functions)
+ - [Commands and functions control](#Commands-and-functions-control)
  - [Functionality](#Functionality)
  - [Research](#Research)
 
