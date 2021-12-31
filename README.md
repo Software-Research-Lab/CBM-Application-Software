@@ -195,7 +195,7 @@ To start conversation and training dialog, request your answer.
 
 ✔️ Note: Make sure that your system audio input is of good quality to avoid speech recognition failures.
 
-#### Conversation commands
+#### Conversation controls 
 
 - tet >> Attention. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
