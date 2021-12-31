@@ -176,6 +176,8 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 - 🟡 Limited access to another mode
 - ⚫ Unavailability in mode
 
+#
+
 ## Commands
 
 To start conversation and training dialog, request your answer. 
