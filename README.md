@@ -164,10 +164,10 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 
 ### Modes
                             
-TT (Text to Text) Learning mode
-TV (Text to Voice) Test mode
-VV (Voice to Voice) Conversation mode
-EX (Voice to Voice) Waiting submode
+- TT (Text to Text) Learning mode
+- TV (Text to Voice) Test mode
+- VV (Voice to Voice) Conversation mode
+- EX (Voice to Voice) Waiting submode
 
 ### Commands
 
