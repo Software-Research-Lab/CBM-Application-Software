@@ -176,13 +176,13 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 - 🟡 Limited access to another mode
 - ⚫ Unavailability in mode
 
-#
-
 ## Commands
 
 To start conversation and training dialog, request your answer. 
 
 ✔️ Note: Use dot to split input into multi-answer/question insert. 
+
+#
 
 #### Modes
 
@@ -195,6 +195,8 @@ To start conversation and training dialog, request your answer.
 "Speak" turn on/off VV (Voice-to-Voice) Conversation Mode 🟡 TT | 🟢 TV | ⚪ VV | ⚫ EX, condition does not allows training and represents only conversation mode. 
 
 ✔️ Note: Make sure that your system audio input is of good quality to avoid speech recognition failures.
+
+#
 
 #### Conversation controls 
 
@@ -246,12 +248,16 @@ To exit and continue speech, say "continue" or "stop and continue" without conti
     user: continue
     _bot: …overview of the terbinari system.
 
+#
+
 #### Dialog keys
 
 - what is (noun definition)
 - you, your, I, my (inverse definition of subject)
 - why (contextual answer to previous sentence)
 - what, why, how (contextual node)
+
+#
 
 #### Memory update
 
@@ -282,6 +288,8 @@ Answer or request keyword "ask" for adding to exist single/multi answer/question
     _bot: I want to know, how to answer question (question)?
     user: some answer
     _bot: ok, if you ask "question" I answer "some answer"
+
+#
 
 #### Memory edit
 
