@@ -172,12 +172,14 @@ EX (Voice to Voice) Waiting submode
 ### Commands
 
 To start conversation and training dialog, request your answer. 
+
 ✔️ Note: Use dot to split input into multi-answer/question insert. 
 
 #### Modes
 
 - chat >> Switch Chat Modes. TT/TV
 - speak >> On/Off Voice Mode. TV/VV
+
 ✔️ Note: Make sure that your system audio input is of good quality to avoid speech recognition failures.
 
 #### Conversation commands
@@ -209,7 +211,7 @@ To start conversation and training dialog, request your answer.
 - remove >> Remove last compound. TT/TV
 - delete >> Delete current compound. TT/TV
 
-✔️ Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
+👉 Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
 
 #### Requests
 
@@ -232,11 +234,13 @@ To start conversation and training dialog, request your answer.
 #### Vision
 
 - vision >> Vision mode. Vision On/Off. TV/VV
+
 ✔️ Note: To assign command for a new request, add access key (c1) in your answer.
+
 - hi and see >> Keywords to get face recognition response. TT/TV/VV
 - clear >> Delete recognition data. TT/TV/VV
 
-✔️ Panel allows you to choose video device and track computer vision.
+👉 Panel allows you to choose video device and track computer vision.
  
 
  
