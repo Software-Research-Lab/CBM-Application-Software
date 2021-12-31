@@ -381,7 +381,15 @@ Ask about the "age":
  
 #### Tools
 
-- numb +-/* numb >> Request for math calculations. TT/TV/VV
+- numb +-/* numb >> Request for math calculations. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+To request single mathematical computation, use operators to calculate sums. Calculator designed as an element of dialog flexibility without providing such multiple calculations e.g. if result to computation 2+4+6-10*100 is equal to -988 In case of single computation answer will be 2 plus 4 is equal to 6, 4 plus 6 is equal to 10, 6 minus 10 is equal to -4, 10 multiplied by 100 is equal to 1000 
+
+    user: How much will be 777+ 455 and 120 / 54 and 1898*221 and 5101-3101 (TT/TV)
+    _bot: 777 plus 455 is equal to 1232, 5101 minus 3101 is equal to 2000, 120 divided by 54 is equal to 2.22222222222222, 1898 multiplied by 221 is equal to 419458
+    user: 777 + 455 (VV)
+    _bot:  1232 
+ 
 - filter >> On/Off Spelling correction filter. TT/TV
 
 #### Vision
