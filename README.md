@@ -169,6 +169,19 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 - VV (Voice to Voice) Conversation mode
 - EX (Voice to Voice) Waiting submode
 
+### Mode state
+
+- ⚪ Modes that accesses and processes the current function
+- 🟢 Modes that have access to current mode
+- 🟡 Limited access to another mode
+- ⚫ Unavailability in mode
+
+### Mode controls
+
+"Chat" TT (Text-to-Text) Training Mode  ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textual training and conversation chat mode, switch between (Text-to-Text) and TV (Text-to-Voice) Testing Mode 🟢 TT | ⚪ TV | 🟢 VV | ⚫ EX Text-to-Speech voice response and animatronics control display anthropomorphic visualization design of eyes motion computer vision method and viseme animation set according  [System.Speech.Synthesis Namespace SpeechSynthesizer.VisemeReached Event](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer.visemereached?view=netframework-4.8) using Microsoft [System.Speech.Synthesis](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8) system default Zira and Irina voice reference.
+
+"Speak" turn on/off VV (Voice-to-Voice) Conversation Mode 🟡 TT | 🟢 TV | ⚪ VV | ⚫ EX, condition does not allows training and represents only conversation mode. 
+
 ### Commands
 
 To start conversation and training dialog, request your answer. 
@@ -188,8 +201,8 @@ To start conversation and training dialog, request your answer.
 
  Call the name "tet" ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX to get recall of attention or interrupt current monologue speech during the voice modes.
 
-  user: tet
-  _bot: what?
+    user: tet
+    _bot: what?
   
 - yes >> Confirmation to accept condition. TT/TV/VV
 - no >> Confirmation to cancel condition. TT/TV/VV
@@ -248,18 +261,7 @@ To start conversation and training dialog, request your answer.
 
 👉 Panel allows you to choose video device and track computer vision.
 
-## Controls and functions
 
-- ⚪ Modes that accesses and processes the current function
-- 🟢 Modes that have access to current mode
-- 🟡 Limited access to another mode
-- ⚫ Unavailability in mode
-
-#### Mode controls
-
-"Chat" TT (Text-to-Text) Training Mode  ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textual training and conversation chat mode, switch between (Text-to-Text) and TV (Text-to-Voice) Testing Mode 🟢 TT | ⚪ TV | 🟢 VV | ⚫ EX Text-to-Speech voice response and animatronics control display anthropomorphic visualization design of eyes motion computer vision method and viseme animation set according  [System.Speech.Synthesis Namespace SpeechSynthesizer.VisemeReached Event](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer.visemereached?view=netframework-4.8) using Microsoft [System.Speech.Synthesis](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8) system default Zira and Irina voice reference.
-
-"Speak" turn on/off VV (Voice-to-Voice) Conversation Mode 🟡 TT | 🟢 TV | ⚪ VV | ⚫ EX, condition does not allows training and represents only conversation mode. 
 
 ## Download markdown pdf
 
