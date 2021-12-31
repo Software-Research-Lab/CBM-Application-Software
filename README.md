@@ -19,8 +19,8 @@ Intelligent systems and robotics laboratory**
 
  - [Software and device](#Software-and-device)
  - [Interface control ](#Interface-control )
- - [Overview](#Overview)
- - [Processing ](#Processing)
+ - [NLP semantic analysis methods algorithms](#NLP-semantic-analysis-methods-algorithms)
+ - [Commands and functions](#Commands-and-functions)
  - [Functionality](#Functionality)
  - [Research](#Research)
 
@@ -57,7 +57,7 @@ The bot operates individual unique memory content updated by interlocutor input 
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg)
 
 
-## NLP semantic analysis methods algorithms functions
+## NLP semantic analysis methods algorithms
 
 The operated choice between methods occurs at the level of input processing or mode condition and enters into interconnected work under functions control interface. 
 
@@ -160,7 +160,7 @@ Outputs questions and answers from existing memory assigned list or random/conte
 
 Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
 
- 
+## Commands and functions
 
  
 
