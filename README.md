@@ -176,12 +176,6 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 - 🟡 Limited access to another mode
 - ⚫ Unavailability in mode
 
-### Mode controls
-
-"Chat" TT (Text-to-Text) Training Mode  ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textual training and conversation chat mode, switch between (Text-to-Text) and TV (Text-to-Voice) Testing Mode 🟢 TT | ⚪ TV | 🟢 VV | ⚫ EX Text-to-Speech voice response and animatronics control display anthropomorphic visualization design of eyes motion computer vision method and viseme animation set according  [System.Speech.Synthesis Namespace SpeechSynthesizer.VisemeReached Event](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer.visemereached?view=netframework-4.8) using Microsoft [System.Speech.Synthesis](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8) system default Zira and Irina voice reference.
-
-"Speak" turn on/off VV (Voice-to-Voice) Conversation Mode 🟡 TT | 🟢 TV | ⚪ VV | ⚫ EX, condition does not allows training and represents only conversation mode. 
-
 ### Commands
 
 To start conversation and training dialog, request your answer. 
@@ -191,7 +185,12 @@ To start conversation and training dialog, request your answer.
 #### Modes
 
 - chat >> Switch Chat Modes. TT/TV
+
+"Chat" TT (Text-to-Text) Training Mode  ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textual training and conversation chat mode, switch between (Text-to-Text) and TV (Text-to-Voice) Testing Mode 🟢 TT | ⚪ TV | 🟢 VV | ⚫ EX Text-to-Speech voice response and animatronics control display anthropomorphic visualization design of eyes motion computer vision method and viseme animation set according  [System.Speech.Synthesis Namespace SpeechSynthesizer.VisemeReached Event](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer.visemereached?view=netframework-4.8) using Microsoft [System.Speech.Synthesis](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8) system default Zira and Irina voice reference.
+
 - speak >> On/Off Voice Mode. TV/VV
+
+"Speak" turn on/off VV (Voice-to-Voice) Conversation Mode 🟡 TT | 🟢 TV | ⚪ VV | ⚫ EX, condition does not allows training and represents only conversation mode. 
 
 ✔️ Note: Make sure that your system audio input is of good quality to avoid speech recognition failures.
 
