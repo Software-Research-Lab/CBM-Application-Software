@@ -296,9 +296,29 @@ To format memory for default content insert "format" and confirm condition. Form
     user: tet
     _bot: formatting command reset. what?
   
-- remove >> Remove last compound. TT/TV
-- delete >> Delete current compound. TT/TV
+- remove >> Remove last compound. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
+To remove last input, request "remove":
+
+    user: perfect
+    _bot: what is perfect?
+    user: just perefct (typo or unwonted answer)
+    _bot: saved
+    user: remove
+    _bot: last compound removed (in case of answer or) last input removed (in case of question) 
+  
+- delete >> Delete current compound. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+
+To remove actual answer compound, insert "delete": 
+
+    _bot: just perefct (typo or unwonted answer)
+    user: delete
+    _bot: compound removed 
+    
+- open chain >> ... TT/TV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+    With sequential insertion order request "open chain" first displays DAC second memory chain IRA value matrix keys.
+    
 👉 Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
 
 #### Requests
