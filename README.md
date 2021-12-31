@@ -199,13 +199,21 @@ To start conversation and training dialog, request your answer.
 
 - tet >> Attention. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
- Calling the name to get recall of attention or interrupt current monologue speech during the voice modes.
+ Calling the name to get recall of attention or interrupt current monologue speech during the voice modes:
 
     user: tet
     _bot: what?
   
-- yes >> Confirmation to accept condition. TT/TV/VV
-- no >> Confirmation to cancel condition. TT/TV/VV
+- yes >> Confirmation to accept condition. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+- no >> Confirmation to cancel condition. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+Confirmations to accept or cancel condition:
+
+    user: format 
+    _bot: you sure?
+    user: yes
+    _bot: memory cleared 
+  
 - stop >> Stop conversation. Exit back from 'continue'. TV/VV/EX
 - again >> Repeat phrase. TV/VV
 - wait >> Pause speech. VV/EX
