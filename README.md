@@ -213,8 +213,22 @@ Confirmations to accept or cancel condition:
     user: yes
     _bot: memory cleared 
   
-- stop >> Stop conversation. Exit back from 'continue'. TV/VV/EX
+- stop >> Stop conversation. Exit back from 'continue'. TV/VV/EX ⚫ TT | ⚪ TV | ⚪ VV | ⚪ EX. 
+
+To interrupt speech, request "stop" To exit back from "ex" waiting state, say "stop" or "stop and continue". 
+
+    _bot: this documentation presents… 
+    user: stop
+    _bot: ok 
+  
 - again >> Repeat phrase. TV/VV
+
+To repeat phrase, request "again"  ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX:
+
+    _bot: this documentation represents… 
+    user: again
+    _bot: this documentation represents overview of the terbinari system.      
+  
 - wait >> Pause speech. VV/EX
 - continue >> Continue speech. VV/EX
 - stop and continue >> Exit back from 'wait'. VV/EX
