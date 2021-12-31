@@ -351,10 +351,34 @@ Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which cont
 
 #### Scenario
 
-- how old are you >> Age. TT/TV/VV
-- what is your name >> Acquaintance. TT/TV/VV
-- my name >>  User name. TT/TV/VV
+- what is your name >> Acquaintance. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
+To pass through acquaintance scenario ask for name:  
+
+    user: what is your name?
+    _bot: my name is tet. what is yours? (first time)
+    user: my name is mark
+    _bot: If your name is mark, say (yes), otherwise repeat your name
+    user: yes
+    _bot: nice to talk to you mark 
+    user: what is your name? (second time)
+    _bot: my name is tet.
+ 
+- my name >>  User name. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+To introduce yourself, input your name:   
+
+    user: my name is inna
+
+During the Vision recognition process, detected face will be associated with this name. Check detection with TT or TV modes and insert your name, then say hello. 
+
+- how old are you >> Age. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+Ask about the "age":  
+
+    user: how old are you?
+    _bot: according to the system time, I am one year old
+ 
 #### Tools
 
 - numb +-/* numb >> Request for math calculations. TT/TV/VV
