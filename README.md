@@ -185,6 +185,12 @@ To start conversation and training dialog, request your answer.
 #### Conversation commands
 
 - tet >> Attention. TT/TV/VV
+
+ Call the name "tet" ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX to get recall of attention or interrupt current monologue speech during the voice modes.
+
+  user: tet
+  _bot: what?
+  
 - yes >> Confirmation to accept condition. TT/TV/VV
 - no >> Confirmation to cancel condition. TT/TV/VV
 - stop >> Stop conversation. Exit back from 'continue'. TV/VV/EX
