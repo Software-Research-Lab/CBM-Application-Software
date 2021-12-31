@@ -253,8 +253,33 @@ To exit and continue speech, say "continue" or "stop and continue" without conti
 
 #### Memory update
 
-- ctx >> To add context answer. TT/TV
-- ask >> To get request for answer. TT/TV
+- ctx >> To add context answer. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+
+To add contextual node, use keyword "ctx":
+
+  user: how to teach ctx 
+  _bot: what to teach?              
+  user: answers to your question
+  _bot: how to teach?     
+  user: insert questions. insert answers
+  _bot: why to teach?   
+  user: to teach me
+
+And request ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX:
+
+  user: how to teach?
+  _bot: insert answers
+  user: what answers?
+  _bot: answers to your question
+  
+- ask >> To get request for answer. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+
+Answer or request keyword "ask" for adding to exist single/multi answer/question:   
+
+  user: ask me something
+  _bot: I want to know, how to answer question (question)?
+  user: some answer
+  _bot: ok, if you ask "question" I answer "some answer"
 
 #### Memory edit
 
