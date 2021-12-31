@@ -390,9 +390,9 @@ To request single mathematical computation, use operators to calculate sums. Cal
     user: 777 + 455 (VV)
     _bot:  1232 
  
-- filter >> On/Off Spelling correction filter. TT/TV
+- filter >> On/Off Spelling correction filter. TT/TV  ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
-To turn on/off spelling correction filter, request "filter" TT | TV | VV | EX, which is useful during textual trading In chat mode. 
+To turn on/off spelling correction filter, request "filter", which is useful during textual trading In chat mode. 
 
     user: filter 
     _bot:  spelling correction filter on
