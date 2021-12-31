@@ -197,9 +197,9 @@ To start conversation and training dialog, request your answer.
 
 #### Conversation commands
 
-- tet >> Attention. TT/TV/VV
+- tet >> Attention. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
- Call the name "tet" ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX to get recall of attention or interrupt current monologue speech during the voice modes.
+ Calling the name to get recall of attention or interrupt current monologue speech during the voice modes.
 
     user: tet
     _bot: what?
