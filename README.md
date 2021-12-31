@@ -169,7 +169,7 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 - VV (Voice to Voice) Conversation mode
 - EX (Voice to Voice) Waiting submode
 
-### Mode state marker
+### Mode access state marker
 
 - ⚪ Modes that accesses and processes the current function
 - 🟢 Modes that have access to current mode
@@ -184,11 +184,13 @@ To start conversation and training dialog, request your answer.
 
 ## Modes
 
-### chat #### - Switch chat modes 
+### chat
+#### Switch chat modes 
 
 TT (Text-to-Text) Training Mode ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textual training and conversation chat mode, switch between (Text-to-Text) and TV (Text-to-Voice) Testing Mode 🟢 TT | ⚪ TV | 🟢 VV | ⚫ EX Text-to-Speech voice response and animatronics control display anthropomorphic visualization design of eyes motion computer vision method and viseme animation set according  [System.Speech.Synthesis Namespace SpeechSynthesizer.VisemeReached Event](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer.visemereached?view=netframework-4.8) using Microsoft [System.Speech.Synthesis](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8) system default Zira and Irina voice reference.
 
-### speak - On/Off Voice Mode
+### speak 
+#### On/Off Voice Mode
 
 "Speak" turn on/off VV (Voice-to-Voice) Conversation Mode 🟡 TT | 🟢 TV | ⚪ VV | ⚫ EX, condition does not allows training and represents only conversation mode. 
 
@@ -196,16 +198,22 @@ TT (Text-to-Text) Training Mode ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textu
 
 ## Conversation controls 
 
-### tet - Attention. ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+### tet 
+#### Attention
+🔑: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
  Calling the name to get recall of attention or interrupt current monologue speech during the voice modes:
 
     user: tet
     _bot: what?
-  
-### yes - Confirmation to accept condition. ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
-### no - Confirmation to cancel condition. ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+### yes 
+#### Confirmation to accept condition
+🔑: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+### no 
+#### Confirmation to cancel condition
+🔑: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 Confirmations to accept or cancel condition:
 
@@ -214,7 +222,9 @@ Confirmations to accept or cancel condition:
     user: yes
     _bot: memory cleared 
   
-### stop - Stop conversation. Exit back from 'continue'. ⚫ TT | ⚪ TV | ⚪ VV | ⚪ EX 
+### stop 
+#### Stop conversation. Exit back from 'continue'
+🔑: ⚫ TT | ⚪ TV | ⚪ VV | ⚪ EX 
 
 To interrupt speech, request "stop" To exit back from "ex" waiting state, say "stop" or "stop and continue". 
 
@@ -222,7 +232,9 @@ To interrupt speech, request "stop" To exit back from "ex" waiting state, say "s
     user: stop
     _bot: ok 
   
-### again - Repeat phrase. ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
+### again 
+#### Repeat phrase. 
+🔑: ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 To repeat phrase, request "again":
 
