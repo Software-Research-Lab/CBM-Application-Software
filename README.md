@@ -246,10 +246,10 @@ To start conversation and training dialog, request your answer.
  
 
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
+text in red
+text in green
+text in orange
+text in gray
 @@ text in purple (and bold)@@
 ```
 
