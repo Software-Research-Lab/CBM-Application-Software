@@ -243,21 +243,16 @@ To start conversation and training dialog, request your answer.
 👉 Panel allows you to choose video device and track computer vision.
  
 
- 
+## Controls and functions
 
-```diff
-text in red
-text in green
-text in orange
-text in gray
-@@ text in purple (and bold)@@
-```
+⚪ Modes that accesses and processes the current function
+🟢 Modes that have access to current mode
+🟡 Limited access to another mode
+⚫ Unavailability in mode
 
+#### Mode controls
 
-
-
-
-
+"Chat" TT (Text-to-Text) Training Mode  ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textual training and conversation chat mode, switch between (Text-to-Text) and TV (Text-to-Voice) Testing Mode 🟢 TT | ⚪ TV | 🟢 VV | ⚫ EX Text-to-Speech voice response and animatronics control display anthropomorphic visualization design of eyes motion computer vision method and viseme animation set according  [System.Speech.Synthesis Namespace SpeechSynthesizer.VisemeReached Event](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer.visemereached?view=netframework-4.8) using Microsoft speech synthesis system default Zira and Irina voice reference.
 
 ## Download markdown pdf
 
