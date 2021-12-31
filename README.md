@@ -392,6 +392,13 @@ To request single mathematical computation, use operators to calculate sums. Cal
  
 - filter >> On/Off Spelling correction filter. TT/TV
 
+To turn on/off spelling correction filter, request "filter" TT | TV | VV | EX, which is useful during textual trading In chat mode. 
+
+    user: filter 
+    _bot:  spelling correction filter on
+    user: hoow olz arx yous (Typo)
+    _bot:  in accordance with the current system time, I am 1 year old (Input processed as “how old are you”)
+
 #### Vision
 
 - vision >> Vision mode. Vision On/Off. TV/VV
