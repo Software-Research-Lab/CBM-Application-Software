@@ -176,15 +176,13 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 - 🟡 Limited access to another mode
 - ⚫ Unavailability in mode
 
-## Commands
+# Commands
 
 To start conversation and training dialog, request your answer. 
 
 ✔️ Note: Use dot to split input into multi-answer/question insert. 
 
-#
-
-#### Modes
+## Modes
 
 - chat >> Switch Chat Modes. TT/TV
 
@@ -196,9 +194,7 @@ To start conversation and training dialog, request your answer.
 
 ✔️ Note: Make sure that your system audio input is of good quality to avoid speech recognition failures.
 
-#
-
-#### Conversation controls 
+## Conversation controls 
 
 - tet >> Attention. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
@@ -248,18 +244,14 @@ To exit and continue speech, say "continue" or "stop and continue" without conti
     user: continue
     _bot: …overview of the terbinari system.
 
-#
-
-#### Dialog keys
+## Dialog keys
 
 - what is (noun definition)
 - you, your, I, my (inverse definition of subject)
 - why (contextual answer to previous sentence)
 - what, why, how (contextual node)
 
-#
-
-#### Memory update
+## Memory update
 
 - ctx >> To add context answer. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
@@ -289,9 +281,7 @@ Answer or request keyword "ask" for adding to exist single/multi answer/question
     user: some answer
     _bot: ok, if you ask "question" I answer "some answer"
 
-#
-
-#### Memory edit
+## Memory edit
 
 - format >> Format Memory. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
@@ -331,7 +321,7 @@ To remove actual answer compound, insert "delete":
     
 👉 Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
 
-#### Persistent data 
+## Persistent data 
 
 Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which contains haarcascade xml file, "base" sub-folder with face recognition data, and 6 system text documents.
 
@@ -342,14 +332,14 @@ Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which cont
     • Taoz5/Y - Local registration user access key (Encrypted)
     • submem - Memory backup 
 
-#### Requests
+## Requests
 
 - en/fr/ru >> to switch language input language code. TT/TV/VV
 - time >> Time and date. TT/TV/VV
 - information >> Information about. TT/TV/VV
 - exit >> To close program with command and condition. TT/TV/VV
 
-#### Scenario
+## Scenario
 
 - what is your name >> Acquaintance. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
@@ -379,7 +369,7 @@ Ask about the "age":
     user: how old are you?
     _bot: according to the system time, I am one year old
  
-#### Tools
+## Tools
 
 - numb +-/* numb >> Request for math calculations. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
@@ -399,7 +389,7 @@ To turn on/off spelling correction filter, request "filter", which is useful dur
     user: hoow olz arx yous (Typo)
     _bot:  in accordance with the current system time, I am 1 year old (Input processed as “how old are you”)
 
-#### Vision
+## Vision
 
 - vision >> Vision mode. Vision On/Off. TV/VV
 
