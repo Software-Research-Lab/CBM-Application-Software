@@ -200,20 +200,22 @@ TT (Text-to-Text) Training Mode ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textu
 
 ### tet 
 #### Attention
-🔑: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
  Calling the name to get recall of attention or interrupt current monologue speech during the voice modes:
 
     user: tet
     _bot: what?
 
+#
+
 ### yes 
 #### Confirmation to accept condition
-🔑: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 ### no 
 #### Confirmation to cancel condition
-🔑: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 Confirmations to accept or cancel condition:
 
@@ -221,37 +223,51 @@ Confirmations to accept or cancel condition:
     _bot: you sure?
     user: yes
     _bot: memory cleared 
-  
+
+#
+
 ### stop 
 #### Stop conversation. Exit back from 'continue'
-🔑: ⚫ TT | ⚪ TV | ⚪ VV | ⚪ EX 
+Access: ⚫ TT | ⚪ TV | ⚪ VV | ⚪ EX 
 
 To interrupt speech, request "stop" To exit back from "ex" waiting state, say "stop" or "stop and continue". 
 
     _bot: this documentation presents… 
     user: stop
     _bot: ok 
-  
+
+#
+
 ### again 
-#### Repeat phrase. 
-🔑: ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
+#### Repeat phrase 
+Access: ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 To repeat phrase, request "again":
 
     _bot: this documentation represents… 
     user: again
     _bot: this documentation represents overview of the terbinari system.      
-  
-### wait - Pause speech. ⚫ TT | ⚫ TV | ⚪ VV | ⚪ EX
+
+#
+
+### wait 
+####  Pause speech 
+Access: ⚫ TT | ⚫ TV | ⚪ VV | ⚪ EX
 
 To pause speech, say "wait" EX (Voice-to-Voice) Waiting State. Command interrupts speech and enters program into closed input/output waiting state during voice-to-voice conversation.
 
     _bot: this documentation represents…
     user: wait
-  
-### continue - Continue speech. ⚫ TT | ⚫ TV | ⚫ VV | ⚪ EX
 
-### stop and continue - Exit back from 'wait'. ⚫ TT | ⚫ TV | ⚫ VV | ⚪ EX
+#
+
+### continue 
+####  Continue speech
+Access: ⚫ TT | ⚫ TV | ⚫ VV | ⚪ EX
+
+### stop and continue 
+####  Exit back from 'wait'
+Access: ⚫ TT | ⚫ TV | ⚫ VV | ⚪ EX
 
 To exit and continue speech, say "continue" or "stop and continue" without continuation. 
 
