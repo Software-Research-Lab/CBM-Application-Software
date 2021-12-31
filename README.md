@@ -331,6 +331,17 @@ To remove actual answer compound, insert "delete":
     
 👉 Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
 
+#### Persistent data 
+
+Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which contains haarcascade xml file, "base" sub-folder with face recognition data, and 6 system text documents.
+
+    • Taoz1/0 - DAC Memory (Encrypted DAC memory)
+    • Taoz2/X - IRN Memory (Encrypted IRN memory)
+    • Taoz3 - RP (System)
+    • Taoz4 - CP (System)
+    • Taoz5/Y - Local registration user access key (Encrypted)
+    • submem - Memory backup 
+
 #### Requests
 
 - en/fr/ru >> to switch language input language code. TT/TV/VV
