@@ -189,6 +189,7 @@ To start conversation and training dialog, request your answer.
 
 TT (Text-to-Text) Training Mode ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textual training and conversation chat mode, switch between (Text-to-Text) and TV (Text-to-Voice) Testing Mode 🟢 TT | ⚪ TV | 🟢 VV | ⚫ EX Text-to-Speech voice response and animatronics control display anthropomorphic visualization design of eyes motion computer vision method and viseme animation set according  [System.Speech.Synthesis Namespace SpeechSynthesizer.VisemeReached Event](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer.visemereached?view=netframework-4.8) using Microsoft [System.Speech.Synthesis](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8) system default Zira and Irina voice reference.
 
+#
 ### speak 
 #### On/Off Voice Mode
 
@@ -208,7 +209,6 @@ Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
     _bot: what?
 
 #
-
 ### yes 
 #### Confirmation to accept condition
 Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
@@ -225,7 +225,6 @@ Confirmations to accept or cancel condition:
     _bot: memory cleared 
 
 #
-
 ### stop 
 #### Stop conversation. Exit back from 'continue'
 Access: ⚫ TT | ⚪ TV | ⚪ VV | ⚪ EX 
@@ -237,7 +236,6 @@ To interrupt speech, request "stop" To exit back from "ex" waiting state, say "s
     _bot: ok 
 
 #
-
 ### again 
 #### Repeat phrase 
 Access: ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
@@ -249,7 +247,6 @@ To repeat phrase, request "again":
     _bot: this documentation represents overview of the terbinari system.      
 
 #
-
 ### wait 
 ####  Pause speech 
 Access: ⚫ TT | ⚫ TV | ⚪ VV | ⚪ EX
@@ -260,7 +257,6 @@ To pause speech, say "wait" EX (Voice-to-Voice) Waiting State. Command interrupt
     user: wait
 
 #
-
 ### continue 
 ####  Continue speech
 Access: ⚫ TT | ⚫ TV | ⚫ VV | ⚪ EX
@@ -283,7 +279,9 @@ To exit and continue speech, say "continue" or "stop and continue" without conti
 
 ## Memory update
 
-- ctx >> To add context answer. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+### ctx 
+#### To add context answer
+Access: ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
 To add contextual node, use keyword "ctx":
 
@@ -295,14 +293,17 @@ To add contextual node, use keyword "ctx":
     _bot: why to teach?
     user: to teach me
 
-And request ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX:
+Request access ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX:
 
     user: how to teach?
     _bot: insert answers
     user: what answers?
     _bot: answers to your question
-  
-- ask >> To get request for answer. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+
+#  
+### ask 
+####  To get request for answer 
+Access: ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
 Answer or request keyword "ask" for adding to exist single/multi answer/question:   
 
@@ -313,7 +314,9 @@ Answer or request keyword "ask" for adding to exist single/multi answer/question
 
 ## Memory edit
 
-- format >> Format Memory. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+### format 
+#### Format Memory
+Access: ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
 To format memory for default content insert "format" and confirm condition. Formatting removes memory runtime and persistent data.
  
@@ -325,8 +328,11 @@ To format memory for default content insert "format" and confirm condition. Form
     _bot: skipped 
     user: tet
     _bot: formatting command reset. what?
-  
-- remove >> Remove last compound. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+
+#
+###  remove 
+#### Remove last compound 
+Access: ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
 To remove last input, request "remove":
 
@@ -336,8 +342,11 @@ To remove last input, request "remove":
     _bot: saved
     user: remove
     _bot: last compound removed (in case of answer or) last input removed (in case of question) 
-  
-- delete >> Delete current compound. TT/TV ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+
+#
+### delete 
+####  Delete current compound
+Access: ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
 To remove actual answer compound, insert "delete": 
 
@@ -345,7 +354,9 @@ To remove actual answer compound, insert "delete":
     user: delete
     _bot: compound removed 
     
-- open chain >> ... TT/TV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+### open chain 
+####  Show memory content 
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
     With sequential insertion order request "open chain" first displays DAC second memory chain IRA value matrix keys.
     
