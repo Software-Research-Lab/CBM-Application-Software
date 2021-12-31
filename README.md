@@ -245,10 +245,10 @@ To start conversation and training dialog, request your answer.
 
 ## Controls and functions
 
-⚪ Modes that accesses and processes the current function
-🟢 Modes that have access to current mode
-🟡 Limited access to another mode
-⚫ Unavailability in mode
+- ⚪ Modes that accesses and processes the current function
+- 🟢 Modes that have access to current mode
+- 🟡 Limited access to another mode
+- ⚫ Unavailability in mode
 
 #### Mode controls
 
