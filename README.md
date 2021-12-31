@@ -160,7 +160,84 @@ Outputs questions and answers from existing memory assigned list or random/conte
 
 Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
 
-## Commands and functions
+## Commands and functions control
+
+### Modes
+                            
+TT (Text to Text) Learning mode
+TV (Text to Voice) Test mode
+VV (Voice to Voice) Conversation mode
+EX (Voice to Voice) Waiting submode
+
+### Commands
+
+To start conversation and training dialog, request your answer. 
+✔️ Note: Use dot to split input into multi-answer/question insert. 
+
+#### Modes
+
+- chat >> Switch Chat Modes. TT/TV
+- speak >> On/Off Voice Mode. TV/VV
+✔️ Note: Make sure that your system audio input is of good quality to avoid speech recognition failures.
+
+#### Conversation commands
+
+- tet >> Attention. TT/TV/VV
+- yes >> Confirmation to accept condition. TT/TV/VV
+- no >> Confirmation to cancel condition. TT/TV/VV
+- stop >> Stop conversation. Exit back from 'continue'. TV/VV/EX
+- again >> Repeat phrase. TV/VV
+- wait >> Pause speech. VV/EX
+- continue >> Continue speech. VV/EX
+- stop and continue >> Exit back from 'wait'. VV/EX
+
+#### Dialog keys
+
+- what is (noun definition)
+- you, your, I, my (inverse definition of subject)
+- why (contextual answer to previous sentence)
+- what, why, how (contextual node)
+
+#### Memory update
+
+- ctx >> To add context answer. TT/TV
+- ask >> To get request for answer. TT/TV
+
+#### Memory edit
+
+- format >> Format Memory. TT/TV
+- remove >> Remove last compound. TT/TV
+- delete >> Delete current compound. TT/TV
+
+✔️ Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
+
+#### Requests
+
+- en/fr/ru >> to switch language input language code. TT/TV/VV
+- time >> Time and date. TT/TV/VV
+- information >> Information about. TT/TV/VV
+- exit >> To close program with command and condition. TT/TV/VV
+
+#### Scenario
+
+- how old are you >> Age. TT/TV/VV
+- what is your name >> Acquaintance. TT/TV/VV
+- my name >>  User name. TT/TV/VV
+
+#### Tools
+
+- numb +-/* numb >> Request for math calculations. TT/TV/VV
+- filter >> On/Off Spelling correction filter. TT/TV
+
+#### Vision
+
+- vision >> Vision mode. Vision On/Off. TV/VV
+✔️ Note: To assign command for a new request, add access key (c1) in your answer.
+- hi and see >> Keywords to get face recognition response. TT/TV/VV
+- clear >> Delete recognition data. TT/TV/VV
+
+✔️ Panel allows you to choose video device and track computer vision.
+ 
 
  
 
