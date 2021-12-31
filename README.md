@@ -221,17 +221,28 @@ To interrupt speech, request "stop" To exit back from "ex" waiting state, say "s
     user: stop
     _bot: ok 
   
-- again >> Repeat phrase. TV/VV
+- again >> Repeat phrase. TV/VV ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
-To repeat phrase, request "again"  ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX:
+To repeat phrase, request "again":
 
     _bot: this documentation represents… 
     user: again
     _bot: this documentation represents overview of the terbinari system.      
   
-- wait >> Pause speech. VV/EX
-- continue >> Continue speech. VV/EX
-- stop and continue >> Exit back from 'wait'. VV/EX
+- wait >> Pause speech. VV/EX ⚫ TT | ⚫ TV | ⚪ VV | ⚪ EX
+
+To pause speech, say "wait" EX (Voice-to-Voice) Waiting State. Command interrupts speech and enters program into closed input/output waiting state during voice-to-voice conversation.
+
+    _bot: this documentation represents…
+    user: wait
+  
+- continue >> Continue speech. VV/EX ⚫ TT | ⚫ TV | ⚫ VV | ⚪ EX
+- stop and continue >> Exit back from 'wait'. ⚫ TT | ⚫ TV | ⚫ VV | ⚪ EX
+
+To exit and continue speech, say "continue" or "stop and continue" without continuation. 
+
+    user: continue
+    _bot: …overview of the terbinari system.
 
 #### Dialog keys
 
