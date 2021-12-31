@@ -257,12 +257,12 @@ To exit and continue speech, say "continue" or "stop and continue" without conti
 
 To add contextual node, use keyword "ctx":
 
-  user: how to teach ctx 
-  _bot: what to teach?              
+  user: how to teach ctx
+  _bot: what to teach?
   user: answers to your question
-  _bot: how to teach?     
+  _bot: how to teach?
   user: insert questions. insert answers
-  _bot: why to teach?   
+  _bot: why to teach?
   user: to teach me
 
 And request ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX:
