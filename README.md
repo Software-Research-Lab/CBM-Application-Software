@@ -467,8 +467,10 @@ To turn on/off spelling correction filter, request "filter", which is useful dur
 ## Vision
 
 ### vision 
-#### Vision mode On/Off
+#### Vision mode On/Off computer vision process
 Access:  ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+Vision process written with using of [EmguCV](https://emgu.com) library output, represents animatronics control display animation design and interactive eyes motion distance and direction coordinate step grid method detection, recognition and tracking human face with eyes pupil micro movement mechanism control. 
 
 To assign command for a new request, add access key (c1) in your answer.
 
@@ -490,8 +492,14 @@ To assign command for a new request, add access key (c1) in your answer.
 ####  Keywords to get face recognition response
 Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
+Train recognition data during detection tracking process:
+
+    user: vision
+    _bot: vision on
+    user: my name is roy
+    _bot: hello, roy. looking good
     user: hi
-    _bot: hello (user name)
+    _bot: hello, roy
 
 #
 ### clear 
@@ -523,7 +531,7 @@ Visualization and animatronics control requires using of High Performance power 
 Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which contains haarcascade xml file, "base" sub-folder with face recognition data, and 6 system text documents.
 
      📄 Taoz1/0 - DAC Memory (Encrypted DAC memory)
-     📄 Taoz2/X - IRN Memory (Encrypted IRA memory)
+     📄 Taoz2/X - IRA Memory (Encrypted IRA memory)
      📄 Taoz3 - RP (System)
      📄 Taoz4 - CP (System)
      📄 Taoz5/Y - Local registration user access key (Encrypted)
