@@ -364,9 +364,9 @@ To remove actual answer compound, insert "delete":
     _bot: just perefct (typo or unwonted answer)
     user: delete
     _bot: compound removed 
+    
+✔️ Note: Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
         
-👉 Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
-
 ## Requests
 
 ###  en/fr/ru 
@@ -465,6 +465,8 @@ To turn on/off spelling correction filter, request "filter", which is useful dur
 
 ## Vision
 
+✔️ Note: Panel allows you to choose video device and track computer vision.
+
 ### vision 
 #### Vision mode On/Off computer vision process
 Access:  ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
@@ -504,8 +506,6 @@ Train recognition data during detection tracking process:
 ### clear 
 #### Delete recognition data
 Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
-
-👉 Panel allows you to choose video device and track computer vision.
 
 ## Default filters 
 
