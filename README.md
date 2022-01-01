@@ -160,13 +160,6 @@ Outputs questions and answers from existing memory assigned list or random/conte
 
 Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
 
-## Dialog keys
-
-- what is (noun definition)
-- you, your, I, my (inverse definition of subject)
-- why (contextual answer to previous sentence)
-- what, why, how (contextual node)
-
 ## Commands and functions control
 
 ### Modes 
@@ -182,6 +175,13 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 - 🟢 Modes that have access to current mode
 - 🟡 Limited access to another mode
 - ⚫ Unavailability in mode
+
+### Dialog keys
+
+- what is (noun definition)
+- you, your, I, my (inverse definition of subject)
+- why (contextual answer to previous sentence)
+- what, why, how (contextual node)
 
 # Commands
 
