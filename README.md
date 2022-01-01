@@ -353,33 +353,42 @@ To remove actual answer compound, insert "delete":
     _bot: just perefct (typo or unwonted answer)
     user: delete
     _bot: compound removed 
-    
+        
+👉 Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
+
+## Requests
+
+###  en/fr/ru 
+#### Switch language input language code
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+#
+###  Astronomy 
+#### Download astronomy questions/answers memory set
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+#
+###  time 
+#### Time and date
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+#
+###  information 
+#### Information about Terbinari project, same as "terbinari" with PDF 
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+#
+### exit 
+####  Close program with confirmation 
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+#
 ### open chain 
 ####  Show memory content 
 Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
     With sequential insertion order request "open chain" first displays DAC second memory chain IRA value matrix keys.
     
-👉 Save and upload memory file backup to avoid loss of your original content in case of unexpected shut down or runtime error. Since storing of memory executes with completing of session, this will cause memory reset with default content.
-
-## Persistent data 
-
-Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which contains haarcascade xml file, "base" sub-folder with face recognition data, and 6 system text documents.
-
-    • Taoz1/0 - DAC Memory (Encrypted DAC memory)
-    • Taoz2/X - IRN Memory (Encrypted IRN memory)
-    • Taoz3 - RP (System)
-    • Taoz4 - CP (System)
-    • Taoz5/Y - Local registration user access key (Encrypted)
-    • submem - Memory backup 
-
-## Requests
-
-- en/fr/ru >> to switch language input language code. TT/TV/VV
-- time >> Time and date. TT/TV/VV
-- information >> Information about. TT/TV/VV
-- exit >> To close program with command and condition. TT/TV/VV
-
 ## Scenario
 
 - what is your name >> Acquaintance. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
@@ -441,6 +450,16 @@ To turn on/off spelling correction filter, request "filter", which is useful dur
 
 👉 Panel allows you to choose video device and track computer vision.
 
+## Persistent data 
+
+Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which contains haarcascade xml file, "base" sub-folder with face recognition data, and 6 system text documents.
+
+     📄 Taoz1/0 - DAC Memory (Encrypted DAC memory)
+     📄 Taoz2/X - IRN Memory (Encrypted IRA memory)
+     📄 Taoz3 - RP (System)
+     📄 Taoz4 - CP (System)
+     📄 Taoz5/Y - Local registration user access key (Encrypted)
+     📄 submem - Memory backup 
 
 
 ## Download markdown pdf
