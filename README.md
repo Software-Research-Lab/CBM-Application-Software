@@ -76,7 +76,7 @@ The bot operates individual unique memory content updated by interlocutor input 
 
 The operated choice between methods occurs at the level of input processing or mode condition and enters into interconnected work under functions control interface. 
 
-The simple and rigidly logical method represents automatic direct question-answer exchange learning and dialog process where the basic principle is output the answer to the question if the answer exists or request the answer to the new question. 
+The simple and rigidly logical method represents automatic direct question-answer exchange learning and dialog process model where the basic principle is output the answer to the question if the answer exists or request the answer to the new question. 
 
     q1a. q1b. q1c…
     a1a. a1b. a1c...
