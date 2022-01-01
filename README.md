@@ -180,6 +180,9 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
  - [Requests](#Requests)
  - [Scenario](#Scenario)
  - [Tools](#Tools)
+ - [Vision](#Vision)
+ - [Default filters](#Default-filters)
+ - [Persistent data](#Persistent-data)
  
 ## Modes access 
  
