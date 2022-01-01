@@ -458,12 +458,28 @@ To turn on/off spelling correction filter, request "filter", which is useful dur
 #### Vision mode On/Off. TV/VV
 Access:  ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
-✔️ Note: To assign command for a new request, add access key (c1) in your answer.
+To assign command for a new request, add access key (c1) in your answer.
+
+    user: open your eyes
+    _bot: your question "open your eyes". give me answer
+    user: ok c1
+    _bot: your answer "ok" saved, assigned to the command key c1
+    user: close your eyes
+    _bot: your question "close your eyes". give me answer
+    user: ok c1
+    _bot: your answer "sure" saved, assigned to the command key c1
+    user: open your eyes
+    _bot: ok. vision on
+    user: close your eyes
+    _bot: ok. vision off
 
 #
 ### hi and see 
 ####  Keywords to get face recognition response
 ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+    user: hi
+    _bot: hello (user name)
 
 #
 ### clear 
