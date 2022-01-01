@@ -20,6 +20,7 @@ Intelligent systems and robotics laboratory**
  - [Software and device](#Software-and-device)
  - [Interface control ](#Interface-control )
  - [NLP semantic analysis methods algorithms](#NLP-semantic-analysis-methods-algorithms)
+ - [Dialog keys](#Dialog-keys)
  - [Commands and functions control](#Commands-and-functions-control)
  - [Functionality](#Functionality)
  - [Research](#Research)
@@ -160,34 +161,19 @@ Outputs questions and answers from existing memory assigned list or random/conte
 
 Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
 
-## Commands and functions control
-
-### Modes 
-                            
-- TT (Text to Text) Learning mode
-- TV (Text to Voice) Test mode
-- VV (Voice to Voice) Conversation mode
-- EX (Voice to Voice) Waiting submode
-
-### Mode access state marker
-
-- ⚪ Modes that accesses and processes the current function
-- 🟢 Modes that have access to current mode
-- 🟡 Limited access to another mode
-- ⚫ Unavailability in mode
-
-### Dialog keys
+## Dialog keys
 
 - what is (noun definition)
 - you, your, I, my (inverse definition of subject)
 - why (contextual answer to previous sentence)
 - what, why, how (contextual node)
 
-# Commands
+# Commands and functions control
 
 ### ✔️ Content
 
- - [Modes](#Modes)
+ - [Modes access](#Modes-access)
+ - [Mode](#Modes)
  - [Conversation controls](#Conversation-controls)
  - [Memory update](#Memory-update)
  - [Memory edit](#Memory-edit)
@@ -195,7 +181,23 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
  - [Scenario](#Scenario)
  - [Tools](#Tools)
  
-## Modes
+## Modes access 
+ 
+### Modes
+                            
+- TT (Text to Text) Learning mode
+- TV (Text to Voice) Test mode
+- VV (Voice to Voice) Conversation mode
+- EX (Voice to Voice) Waiting submode
+
+### Access state marker
+
+- ⚪ Modes that accesses and processes the current function
+- 🟢 Modes that have access to current mode
+- 🟡 Limited access to another mode
+- ⚫ Unavailability in mode
+
+## Mode
 
 ### chat
 #### Switch chat modes 
