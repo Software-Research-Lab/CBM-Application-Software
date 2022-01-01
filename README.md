@@ -185,14 +185,24 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 
 # Commands
 
-To start conversation and training dialog, request your answer. 
+### ✔️ Content
 
-✔️ Note: Use dot to split input into multi-answer/question insert. 
-
+ - [Modes](#Modes)
+ - [Conversation controls](#Conversation-controls)
+ - [Memory update](#Memory-update)
+ - [Memory edit](#Memory-edit)
+ - [Requests](#Requests)
+ - [Scenario](#Scenario)
+ - [Tools](#Tools)
+ 
 ## Modes
 
 ### chat
 #### Switch chat modes 
+
+To start conversation and training dialog, request your answer. 
+
+✔️ Note: Use dot to split input into multi-answer/question insert. 
 
 TT (Text-to-Text) Training Mode ⚪ TT | 🟢 TV | ⚫ VV | ⚫ EX Initial textual training and conversation chat mode, switch between (Text-to-Text) and TV (Text-to-Voice) Testing Mode 🟢 TT | ⚪ TV | 🟢 VV | ⚫ EX Text-to-Speech voice response and animatronics control display anthropomorphic visualization design of eyes motion computer vision method and viseme animation set according  [System.Speech.Synthesis Namespace SpeechSynthesizer.VisemeReached Event](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer.visemereached?view=netframework-4.8) using Microsoft [System.Speech.Synthesis](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8) system default Zira and Irina voice reference.
 
