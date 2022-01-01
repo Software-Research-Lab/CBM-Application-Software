@@ -476,7 +476,7 @@ To assign command for a new request, add access key (c1) in your answer.
 #
 ### hi and see 
 ####  Keywords to get face recognition response
-⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
     user: hi
     _bot: hello (user name)
@@ -484,9 +484,27 @@ To assign command for a new request, add access key (c1) in your answer.
 #
 ### clear 
 #### Delete recognition data
-⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 👉 Panel allows you to choose video device and track computer vision.
+
+## Default filters 
+
+### Censor
+
+Does not allows input with various types of information as abusive language, violence, human biological properties, physical relations and basic existential conditions for all parts of memory
+
+#
+### Encyclopedic 
+Access: ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX 
+
+Provides minimal information about the subject of input with the subsequent abolition of the function for particular noun after receiving of answer
+
+#
+### Power mode note
+Access: ⚫ TT | ⚪ TV | ⚪ VV | ⚪ EX 
+
+Visualization and animatronics control requires using of High Performance power plan in Windows 10 OS Control Panel\Hardware and Sound\Power Options
 
 ## Persistent data 
 
