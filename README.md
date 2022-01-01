@@ -387,11 +387,13 @@ Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 ####  Show memory content 
 Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
-    With sequential insertion order request "open chain" first displays DAC second memory chain IRA value matrix keys.
+✔️ Note: With sequential insertion order request "open chain" first displays DAC second memory chain IRA value matrix keys.
     
 ## Scenario
 
-- what is your name >> Acquaintance. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+### what is your name 
+#### Acquaintance
+Access:  ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 To pass through acquaintance scenario ask for name:  
 
@@ -404,7 +406,10 @@ To pass through acquaintance scenario ask for name:
     user: what is your name? (second time)
     _bot: my name is tet.
  
-- my name >>  User name. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+#
+###  my name 
+####  User name
+Access:  ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 To introduce yourself, input your name:   
 
@@ -412,7 +417,10 @@ To introduce yourself, input your name:
 
 During the Vision recognition process, detected face will be associated with this name. Check detection with TT or TV modes and insert your name, then say hello. 
 
-- how old are you >> Age. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+#
+### how old are you 
+#### Age
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 Ask about the "age":  
 
@@ -421,7 +429,9 @@ Ask about the "age":
  
 ## Tools
 
-- numb +-/* numb >> Request for math calculations. TT/TV/VV ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+### - numb +-/* numb 
+#### Request for math calculations
+Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 To request single mathematical computation, use operators to calculate sums. Calculator designed as an element of dialog flexibility without providing such multiple calculations e.g. if result to computation 2+4+6-10*100 is equal to -988 In case of single computation answer will be 2 plus 4 is equal to 6, 4 plus 6 is equal to 10, 6 minus 10 is equal to -4, 10 multiplied by 100 is equal to 1000 
 
@@ -430,7 +440,10 @@ To request single mathematical computation, use operators to calculate sums. Cal
     user: 777 + 455 (VV)
     _bot:  1232 
  
-- filter >> On/Off Spelling correction filter. TT/TV  ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
+#
+### filter 
+#### On/Off Spelling correction filter
+Access: ⚪ TT | ⚪ TV | ⚫ VV | ⚫ EX
 
 To turn on/off spelling correction filter, request "filter", which is useful during textual trading In chat mode. 
 
@@ -441,12 +454,21 @@ To turn on/off spelling correction filter, request "filter", which is useful dur
 
 ## Vision
 
-- vision >> Vision mode. Vision On/Off. TV/VV
+### vision 
+#### Vision mode On/Off. TV/VV
+Access:  ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 ✔️ Note: To assign command for a new request, add access key (c1) in your answer.
 
-- hi and see >> Keywords to get face recognition response. TT/TV/VV
-- clear >> Delete recognition data. TT/TV/VV
+#
+### hi and see 
+####  Keywords to get face recognition response
+⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
+
+#
+### clear 
+#### Delete recognition data
+⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 👉 Panel allows you to choose video device and track computer vision.
 
