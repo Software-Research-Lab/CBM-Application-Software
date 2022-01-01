@@ -160,6 +160,13 @@ Outputs questions and answers from existing memory assigned list or random/conte
 
 Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
 
+## Dialog keys
+
+- what is (noun definition)
+- you, your, I, my (inverse definition of subject)
+- why (contextual answer to previous sentence)
+- what, why, how (contextual node)
+
 ## Commands and functions control
 
 ### Modes 
@@ -269,13 +276,6 @@ To exit and continue speech, say "continue" or "stop and continue" without conti
 
     user: continue
     _bot: …overview of the terbinari system.
-
-## Dialog keys
-
-- what is (noun definition)
-- you, your, I, my (inverse definition of subject)
-- why (contextual answer to previous sentence)
-- what, why, how (contextual node)
 
 ## Memory update
 
