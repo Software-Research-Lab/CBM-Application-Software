@@ -231,12 +231,8 @@ Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
     _bot: what?
 
 #
-### yes 
-#### Confirmation to accept condition
-Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
-
-### no 
-#### Confirmation to cancel condition
+### yes/no 
+#### Confirmation to accept or cancel condition
 Access: ⚪ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 Confirmations to accept or cancel condition:
