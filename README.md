@@ -455,7 +455,7 @@ To turn on/off spelling correction filter, request "filter", which is useful dur
 ## Vision
 
 ### vision 
-#### Vision mode On/Off. TV/VV
+#### Vision mode On/Off
 Access:  ⚫ TT | ⚪ TV | ⚪ VV | ⚫ EX
 
 To assign command for a new request, add access key (c1) in your answer.
