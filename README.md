@@ -18,7 +18,7 @@ Intelligent systems and robotics laboratory**
 ### ✔️ Content
 
  - [Software and device](#Software-and-device)
- - [Interface controls](#Interface-control )
+ - [Interface controls](#Interface-controls)
  - [NLP semantic analysis methods algorithms](#NLP-semantic-analysis-methods-algorithms)
  - [Dialog keys](#Dialog-keys)
  - [Commands and functions control](#Commands-and-functions-control)
