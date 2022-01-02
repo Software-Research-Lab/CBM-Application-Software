@@ -10,7 +10,7 @@ Intelligent systems and robotics laboratory**
 
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png)
 
-## Terbinari CBM Tet.01 Operating program
+# Terbinari CBM Tet.01 Operating program
  
  ![alt text](https://github.com/ladooniani/terbinari-cbm/blob/main/image/terbinari-cbm-tet-lado-oniani-tai-lab.jpg)
  
@@ -22,7 +22,7 @@ Intelligent systems and robotics laboratory**
  - [NLP semantic analysis methods algorithms](#NLP-semantic-analysis-methods-algorithms)
  - [Commands and functions control](#Commands-and-functions-control)
 
-## Software and device
+# Software and device
 
 Terbinari operating program represents interactive training and conversation model, natural language processing, understanding and generation syntactic and semantic analysis/matching logic algorithms, and controller operating methods.
 
@@ -30,7 +30,7 @@ Artificial conversational entity performs input/output question-answering, learn
 
 [Read about Terbinari CBM robot project](https://github.com/ladooniani/terbinari)
 
-## Interface controls 
+# Interface controls 
  
 ![alt text](https://github.com/ladooniani/terbinari-cbm/blob/main/image/terbinari-cbm-1.jpg)
 <!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg) --->
@@ -58,7 +58,7 @@ Artificial conversational entity performs input/output question-answering, learn
 21. Inference root algorithm pie chart graph
 22. Interconnection option 
 
-## NLP semantic analysis methods algorithms
+# NLP semantic analysis methods algorithms
 
 ### ✔️ Content
 
@@ -72,7 +72,7 @@ Artificial conversational entity performs input/output question-answering, learn
  - [Inference root algorithm](#Inference-root-algorithm)
  - [Dialog keys](#Dialog-keys)
 
-### Direct answer chain
+## Direct answer chain
 
 The operated choice between methods occurs at the level of input processing or mode condition and enters into interconnected work under functions control interface. 
 
@@ -117,7 +117,7 @@ To start training and conversation open input window and insert:
     user: hi. whats up. hello. hey
     _bot: if you ask "hello" I answer "hi"
 
-### Definition answer
+## Definition answer
 
 Returns the answer to the subject with definition about the subject by determination of noun with basic question form: 
 
@@ -126,14 +126,14 @@ Returns the answer to the subject with definition about the subject by determina
     user: what is true? (DA)
     _bot: true is condition
 
-### Inverse definition answer
+## Inverse definition answer
 
 Returns attitude to the subject by inversion of pronoun and adjective content:
 
     user: What is your favorite color? 
     _bot: My favorite color is green    
     
-### Contextual question
+## Contextual question
  
 Answer with link to previous answer context by exist conjunction:
 
@@ -142,7 +142,7 @@ Answer with link to previous answer context by exist conjunction:
     user: why?
     _bot: because I like you  
     
-### Contextual answer
+## Contextual answer
 
 Provides adding and request method to create and return contextual dialogue node. Adding keyword "ctx" to question opens contextual answer creation sequence:
 
@@ -159,21 +159,21 @@ Provides adding and request method to create and return contextual dialogue node
     user: what answers?
     _bot: answers to questions
 
-### Vertical stair answer 
+## Vertical stair answer 
 
 Mode-dependent stochastic optimization, including borrowed functions from other methods, and processing with several types of output in case of the "no answer" condition and adding of the new compound is not available. Processing flows by the stair of conditions with incipient step, which counts subject value and looks for containing answers with the context in the compound, while a move to the terminal noun value, otherwise the “answer not found” condition becomes true.
 
-### Output appeal
+## Output appeal
 
 Outputs questions and answers from existing memory assigned list or random/contextual choice.  
 
     _bot: mercury temperature is 801 fahrenheit
 
-### Inference root algorithm
+## Inference root algorithm
 
 Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
 
-### Dialog keys
+## Dialog keys
 
 - what is (noun definition)
 - you, your, I, my (inverse definition of subject)
