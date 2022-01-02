@@ -35,8 +35,8 @@ The bot operates individual unique memory content updated by interlocutor input 
 
 ## Interface control 
  
-![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg)
-
+<!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg) --->
+![alt text](https://github.com/ladooniani/terbinari-cbm/blob/main/image/terbinari-cbm-1.jpg)
 
     1. Input text-box
     2. Output answer display 
