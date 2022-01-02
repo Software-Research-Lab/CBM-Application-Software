@@ -22,8 +22,6 @@ Intelligent systems and robotics laboratory**
  - [NLP semantic analysis methods algorithms](#NLP-semantic-analysis-methods-algorithms)
  - [Dialog keys](#Dialog-keys)
  - [Commands and functions control](#Commands-and-functions-control)
- - [Functionality](#Functionality)
- - [Research](#Research)
 
 ## Software and device
 
