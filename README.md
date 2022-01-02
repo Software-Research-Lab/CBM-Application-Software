@@ -39,7 +39,7 @@ Artificial conversational entity performs input/output question-answering, learn
 <!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg) --->
 <!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg) --->
 
-1. Input text-box
+1. [Input text-box](#chat)
 2. Output answer display 
 3. TT/TV/VV/EX modes, answer processing type, function, and system message indicator
 4. Animatronics control display animation enable/disable
