@@ -20,7 +20,6 @@ Intelligent systems and robotics laboratory**
  - [Software and device](#Software-and-device)
  - [Interface controls](#Interface-controls)
  - [NLP semantic analysis methods algorithms](#NLP-semantic-analysis-methods-algorithms)
- - [Dialog keys](#Dialog-keys)
  - [Commands and functions control](#Commands-and-functions-control)
 
 ## Software and device
@@ -174,7 +173,7 @@ Outputs questions and answers from existing memory assigned list or random/conte
 
 Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
 
-## Dialog keys
+### Dialog keys
 
 - what is (noun definition)
 - you, your, I, my (inverse definition of subject)
