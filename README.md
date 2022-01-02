@@ -70,7 +70,6 @@ Artificial conversational entity performs input/output question-answering, learn
  - [Vertical stair answer](#Vertical-stair-answer )
  - [Output appeal](#Output-appeal)
  - [Inference root algorithm](#Inference-root-algorithm)
- - [Dialog keys](#Dialog-keys)
 
 ## Direct answer chain
 
@@ -119,7 +118,7 @@ To start training and conversation open input window and insert:
 
 ## Definition answer
 
-Returns the answer to the subject with definition about the subject by determination of noun with basic question form: 
+Dialog key **what is** (noun definition) returns the answer to the subject with definition about the subject by determination of noun with basic question form: 
 
     user: true (DAC)
     _bot: true is true       
@@ -128,14 +127,14 @@ Returns the answer to the subject with definition about the subject by determina
 
 ## Inverse definition answer
 
-Returns attitude to the subject by inversion of pronoun and adjective content:
+Dialog key **you, your, I, my** (inverse definition of subject) returns attitude to the subject by inversion of pronoun and adjective content:
 
     user: What is your favorite color? 
     _bot: My favorite color is green    
     
 ## Contextual question
  
-Answer with link to previous answer context by exist conjunction:
+Dialog key **why** answer with link to previous answer context by exist conjunction:
 
     user: who are you
     _bot: I am your friend              
@@ -144,7 +143,7 @@ Answer with link to previous answer context by exist conjunction:
     
 ## Contextual answer
 
-Provides adding and request method to create and return contextual dialogue node. Adding keyword "ctx" to question opens contextual answer creation sequence:
+Dialog keys **what, why, how** provides adding and request method to create and return contextual dialogue node. Adding keyword "ctx" to question opens contextual answer creation sequence:
 
     user: how to teach "ctx"
     _bot: what to teach?              
@@ -172,13 +171,6 @@ Outputs questions and answers from existing memory assigned list or random/conte
 ## Inference root algorithm
 
 Returns the meaning curve of the word or sentence by weighing noun links in the whole memory context. 
-
-## Dialog keys
-
-- what is (noun definition)
-- you, your, I, my (inverse definition of subject)
-- why (contextual answer to previous sentence)
-- what, why, how (contextual node)
 
 # Commands and functions control
 
