@@ -182,6 +182,8 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
 
 # Commands and functions control
 
+![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg)
+
 ### ✔️ Content
 
  - [Modes access](#Modes-access)
