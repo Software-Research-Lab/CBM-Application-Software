@@ -38,27 +38,27 @@ The bot operates individual unique memory content updated by interlocutor input 
 <!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg) --->
 ![alt text](https://github.com/ladooniani/terbinari-cbm/blob/main/image/terbinari-cbm-1.jpg)
 
-    1. Input text-box
-    2. Output answer display 
-    3. TT/TV/VV/EX modes, answer processing type, function, and system message indicator
-    4. Animatronics control display animation enable/disable
-    5. "OA On/Off" Output appeal
-    6. "IC/Close" Voice-to-voice chat conversation tool open/close button
-    7. "UPD/Save BAC" backup update load button
-    8. "BAC" backup saving download button
-    9. "Synch" robot synchronization button
-    10. "Pipe" module connection button
-    11. Video device selection 
-    12. Serial port selection 
-    13. Speech recognition reference selection 
-    14. Speech recognition language selection 
-    15. Detection and recognition tracking monitor
-    16. Voice-to-voice chat conversation tool
-    17. Voice-to-voice chat conversation tool system volume real-time value and pass/block indicator
-    18. Vertical stair answer 
-    19. Inference root algorithm     
-    20. Inference root algorithm pie chart graph
-    21. Interconnection option 
+    - 1. Input text-box
+    - 2. Output answer display 
+    - 3. TT/TV/VV/EX modes, answer processing type, function, and system message indicator
+    - 4. Animatronics control display animation enable/disable
+    - 5. "OA On/Off" Output appeal
+    - 6. "IC/Close" Voice-to-voice chat conversation tool open/close button
+    - 7. "UPD/Save BAC" backup update load button
+    - 8. "BAC" backup saving download button
+    - 9. "Synch" robot synchronization button
+    - 10. "Pipe" module connection button
+    - 11. Video device selection 
+    - 12. Serial port selection 
+    - 13. Speech recognition reference selection 
+    - 14. Speech recognition language selection 
+    - 15. Detection and recognition tracking monitor
+    - 16. Voice-to-voice chat conversation tool
+    - 17. Voice-to-voice chat conversation tool system volume real-time value and pass/block indicator
+    - 18. Vertical stair answer 
+    - 19. Inference root algorithm     
+    - 20. Inference root algorithm pie chart graph
+    - 21. Interconnection option 
 
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg)
 
