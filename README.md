@@ -548,6 +548,22 @@ Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which cont
 
 Pipe server connection allows Terbinari bot receive value from external module application such as desktop-bridge package of UWP speech recognition connection with WPF pipe client and Yolo object detection input tools. 
 
+
+## Full connection
+
+To run program in full connection, input commands by followings sequence:
+
+    • Check animatronics control display radio button to enable animation 
+    • Insert "chat" to switch on visualization.
+    • Click on IC button to open voice-to-voice additional text chat conversation tool to pronounce inputted question with dialog.
+    • Select connected robot serial port.
+    • Insert "vision" or assigned command.
+    • Choose mono or multilingual speech recognition reference and select language. 
+    • Insert "speak".
+    • Click "Synch" to synchronize robot.
+
+
+
 ## Download markdown pdf
 
 📃 [Download pdf](https://)
