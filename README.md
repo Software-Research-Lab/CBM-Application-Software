@@ -39,15 +39,15 @@ Artificial conversational entity performs input/output question-answering, learn
 <!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg) --->
 <!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg) --->
 
-1. [Input text-box](#chat)
+1. Input text-box
 2. Output answer display 
-3. [TT/TV/VV/EX modes, answer processing type, function, and system message indicator](#modes)
+3. TT/TV/VV/EX modes, answer processing type, function, and system message indicator
 4. Animatronics control display animation enable/disable
 5. "OA On/Off" Output appeal
 6. "UPD/Save BAC" backup update load button
 7. "BAC" backup saving download button
 8. "Synch" robot synchronization button
-9. ["Pipe" module connection button](#Pipe)
+9. "Pipe" module connection button
 11. Serial port selection 
 12. Speech recognition reference selection
 13. Speech recognition language selection
@@ -198,6 +198,7 @@ Returns the meaning curve of the word or sentence by weighing noun links in the 
  - [Vision](#Vision)
  - [Default filters](#Default-filters)
  - [Persistent data](#Persistent-data)
+ - [Pipe module connection](#Pipe-module-connection)
  
 ## Modes access 
  
@@ -552,7 +553,7 @@ Files folder located by path C:\Users\User\AppData\Roaming\Terbinari, which cont
      📄 submem - Memory backup 
 
 
-## Pipe
+## Pipe module connection
 
 Pipe server connection allows Terbinari bot receive value from external module application such as desktop-bridge package of UWP speech recognition connection with WPF pipe client and Yolo object detection input tools. 
 
