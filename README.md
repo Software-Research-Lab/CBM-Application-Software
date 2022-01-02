@@ -35,8 +35,9 @@ Artificial conversational entity performs input/output question-answering, learn
 
 ## Interface controls 
  
-<!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg) --->
 ![alt text](https://github.com/ladooniani/terbinari-cbm/blob/main/image/terbinari-cbm-1.jpg)
+<!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg) --->
+<!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-0.jpg) --->
 
 1. Input text-box
 2. Output answer display 
@@ -59,9 +60,6 @@ Artificial conversational entity performs input/output question-answering, learn
 19. Inference root algorithm     
 20. Inference root algorithm pie chart graph
 21. Interconnection option 
-
-![alt text](https://github.com/ladooniani/tailab/blob/master/assets/terbinari-tet-cbm-2.jpg)
-
 
 ## NLP semantic analysis methods algorithms
 
