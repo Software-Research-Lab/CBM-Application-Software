@@ -553,14 +553,14 @@ Pipe server connection allows Terbinari bot receive value from external module a
 
 To run program in full connection, input commands by followings sequence:
 
-    • Check animatronics control display radio button to enable animation 
-    • Insert "chat" to switch on visualization.
-    • Click on IC button to open voice-to-voice additional text chat conversation tool to pronounce inputted question with dialog.
-    • Select connected robot serial port.
-    • Insert "vision" or assigned command.
-    • Choose mono or multilingual speech recognition reference and select language. 
-    • Insert "speak".
-    • Click "Synch" to synchronize robot.
+• Check animatronics control display radio button to enable animation 
+• Insert "chat" to switch on visualization.
+• Click on IC button to open voice-to-voice additional text chat conversation tool to pronounce inputted question with dialog.
+• Select connected robot serial port.
+• Insert "vision" or assigned command.
+• Choose mono or multilingual speech recognition reference and select language. 
+• Insert "speak".
+• Click "Synch" to synchronize robot.
 
 
 
