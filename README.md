@@ -48,18 +48,21 @@ Artificial conversational entity performs input/output question-answering, learn
 7. "BAC" backup saving download button
 8. "Synch" robot synchronization button
 9. "Pipe" module connection button
-10. Serial port selection 
-11. Speech recognition reference selection
-12. Speech recognition language selection
-13. Detection and recognition tracking monitor 
-14. Voice-to-voice chat conversation tool
-15. Voice-to-voice chat conversation tool system volume real-time value and pass/block indicator
-16. Vertical stair answer 
-17. Inference root algorithm
-18. "IC/Close" Voice-to-voice chat conversation tool open/close button
-19. Video device selection 
-20. Inference root algorithm pie chart graph
-21. Interconnection option 
+
+✔️ Note: "Pipe" server connection allows Terbinari bot receive value from external module application such as desktop-bridge package of UWP speech recognition connection with WPF pipe client and Yolo object detection input tools. 
+
+11. Serial port selection 
+12. Speech recognition reference selection
+13. Speech recognition language selection
+14. Detection and recognition tracking monitor 
+15. Voice-to-voice chat conversation tool
+16. Voice-to-voice chat conversation tool system volume real-time value and pass/block indicator
+17. Vertical stair answer 
+18. Inference root algorithm
+19. "IC/Close" Voice-to-voice chat conversation tool open/close button
+20. Video device selection 
+21. Inference root algorithm pie chart graph
+22. Interconnection option 
 
 ## NLP semantic analysis methods algorithms
 
