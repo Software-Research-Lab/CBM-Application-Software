@@ -562,7 +562,7 @@ To run program in full connection, input commands by followings sequence:
  - Insert "speak".
  - Click "Synch" to synchronize robot.
 
-## Platform and usage 
+##  Prototype application platform, compatibility and usage
 
 Particular Terbinari Bot desktop application software C# implementation developed on Microsoft Windows 10 operating system platform with using of [System.Speech.Synthesis](https://docs.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8)
 and [System.Speech.Recognition](https://docs.microsoft.com/en-us/dotnet/api/system.speech.recognition?view=netframework-4.8) references SAPI default desktop TTS Zira and Irina voices and Microsoft speech platform SDK runtime
