@@ -569,6 +569,7 @@ Particular Terbinari Bot desktop application software C# implementation develope
 and [System.Speech.Recognition](https://docs.microsoft.com/en-us/dotnet/api/system.speech.recognition?view=netframework-4.8) references SAPI default desktop TTS Zira and Irina voices and Microsoft speech platform SDK runtime
 languages and [EmguCV](https://emgu.com) computer vision library.
 
+<!---
 ## Download markdown pdf
 
 📃 [Download pdf](https://)
@@ -598,5 +599,7 @@ To get updates from research workflow, please follow us on social networks and s
 <sub>📃 [TAI lab. Terbinari CBM project pdf](https://github.com/ladooniani/tailab/blob/master/docs/tai.pdf)<sub>
 
 <sub>Copyright © 2016-2021 Lado Oniani, TAI Lab. All Rights Reserved<sub>
+--->
+<sub>Copyright © 2016-2024 <a href="https://github.com/ladooniani">Lado Oniani Software Research</a>. All rights reserved.</sub>
 
  
