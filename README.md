@@ -1,3 +1,5 @@
+<!--- 
+
 # [Toy Artificial Intelligence lab.](https://ladooniani.github.io/tailab/) 
  
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/toy_artificial_intelligence_lab_logo.png)
@@ -9,7 +11,7 @@ Intelligent systems and robotics laboratory**
 #
 
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png)
-
+--->
 # Terbinari CBM Tet.01 Operating program
  
 ![alt text](https://github.com/ladooniani/terbinari-cbm/blob/main/image/terbinari-cbm-tet-lado-oniani-tai-lab.jpg)
